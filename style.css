@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Task Form */
+.task-form #add-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.task-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.task-form button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Task Filters */
+.task-filters {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.task-filters button {
+  padding: 10px 20px;
+  background-color: #ecf0f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-filters button:hover {
+  background-color: #bdc3c7;
+}
+
+/* Task List */
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.task-list li.completed {
+  background-color: #e8f5e9;
+}
+
+.task-list li button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-list li button.edit-btn {
+  background-color: #f39c12;
+  color: white;
+}
+
+.task-list li button.edit-btn:hover {
+  background-color: #e67e22;
+}
+
+.task-list li button.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.task-list li button.delete-btn:hover {
+  background-color: #c0392b;
+}
