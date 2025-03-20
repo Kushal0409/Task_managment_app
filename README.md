@@ -1,7 +1,7 @@
 # Task_managment_app
 A simple web-based task manager built with HTML, CSS, and JavaScript. It allows users to add, edit, delete, and view tasks, with data persistence using localStorage.
 
-##Features
+## Features
 Add Task: Enter a title and description.
 
 Edit Task: Modify existing tasks.
@@ -14,7 +14,7 @@ Filter Tasks: View tasks by status (All, Completed, Pending).
 
 Persistent Storage: Tasks are saved in localStorage.
 
-##How to Use
+## How to Use
 Add Task: Fill the form and click "Add Task".
 
 Edit Task: Click "Edit", update details, and save.
